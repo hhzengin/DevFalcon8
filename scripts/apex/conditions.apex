@@ -1,0 +1,11 @@
+ConditionClass_Assignment cca = new ConditionClass_Assignment();
+string month1=cca.ifClassMethod(1);
+string month2=cca.ifClassMethod(12);
+string month13=cca.ifClassMethod(13);
+system.debug('Month 1 is: ' + month1);
+system.debug('Month 2 is: ' + month2);
+system.debug('Month 13 is: ' + month13);
+string quarter1=cca.caseMethod('January');
+string quarter4=cca.caseMethod('dece');
+system.debug('January belongs to:'+ quarter1);
+system.debug('dece belongs to:'+ quarter4);

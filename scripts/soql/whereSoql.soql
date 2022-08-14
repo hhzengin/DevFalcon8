@@ -1,0 +1,2 @@
+//where field name =''
+select Id, Name, phone FROM Account WHERE (phone != null or Website != null) and AccountNumber != null 
